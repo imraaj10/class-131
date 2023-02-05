@@ -9,7 +9,7 @@ function setup() {
 }
 
 function draw() {
-    Image(img, 0, 0, 640, 420);
+    image(img, 0, 0, 640, 420);
     fill("#FF0000");
     text("Dog", 45, 75);
     noFill();
